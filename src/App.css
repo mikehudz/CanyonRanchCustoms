@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1f1a12;
+    color: #fff;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 70px 20px 20px;
+  }
+  
+  .hero img {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 25px;
+  }
+  
+  .hero .bio {
+    margin: 20px 0;
+    font-size: 1.2em;
+    padding-bottom: 50px;
+  }
+  
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 0;
+    color: #ffffff;
+  }
+  
+  .features div {
+    text-align: center;
+    margin: 10px;
+    flex: 1 1 calc(33% - 20px);
+    max-width: calc(33% - 20px);
+  }
+  
+  .features img {
+    max-width: 100%;
+    height: auto;
+    background-color: transparent;
+  }
+  
+  .etsy-button {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    background-color: #dba147;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .etsy-button:hover {
+    background-color: #d18f00;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  .gallery img {
+    max-width: calc(33% - 20px);
+    width: 100%;
+    height: auto;
+    border: 2px solid #fbfbfb;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  .contact {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .contact a {
+    color: #f0a500;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .hero .bio {
+      font-size: 1em;
+      padding-bottom: 30px;
+    }
+    .features div {
+      flex: 1 1 45%;
+      max-width: 45%;
+    }
+    .gallery img {
+      max-width: 45%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero .bio {
+      font-size: 0.9em;
+    }
+    .features div {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+    .gallery img {
+      max-width: 100%;
+    }
+  }
+  

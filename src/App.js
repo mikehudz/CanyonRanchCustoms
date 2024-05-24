@@ -49,7 +49,6 @@ function App() {
           <img src="il_640xN.5610112679_kj3p.jpg" alt="Gallery Image 7" />
           <img src="image5256.jpg" alt="Gallery Image 8" />
           <img src="image5235.jpg" alt="Gallery Image 9" />
-          <img src="public/il_1588xN.5812591569_su6u.avif" alt="Gallery Image 10" />
 
         </section>
 
